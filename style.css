@@ -1,1 +1,118 @@
-/*# sourceMappingURL=style.css.map */
+#container {
+  background-color: #EDEDED;
+  height: 100vh;
+}
+#container .content {
+  display: flex;
+  width: 90%;
+  margin: 0 5%;
+  padding-top: 5vh;
+}
+#container .content .listsBox {
+  width: 35%;
+}
+#container .content .listsBox .listSection .addList form {
+  display: flex;
+}
+#container .content .listsBox .listSection .addList form input {
+  flex: 1;
+  border-style: none;
+}
+#container .content .listsBox .listSection .addList form button {
+  border-style: none;
+}
+#container .content .listsBox .listSection .allTasks {
+  padding-top: 3vh;
+}
+#container .content .listsBox .listSection .allTasks ul {
+  border-radius: 5px;
+  list-style-position: inside;
+  padding: 0;
+}
+#container .content .listsBox .listSection .allTasks ul li {
+  background-color: #fff;
+  border-radius: 5pc;
+  list-style: none;
+  margin: 1vh 0;
+  padding: 0.5vh 0;
+  padding-left: 1.5vw;
+}
+#container .content .listsBox .listSection .allTasks .active-list {
+  background-color: #0D6EFD;
+  color: #fff;
+  border-radius: 5pc;
+}
+#container .content .listsBox .listSection .deleteList {
+  display: flex;
+  padding-top: 1vh;
+}
+#container .content .listsBox .listSection .deleteList input {
+  flex: 1;
+  background-color: #6C757D;
+  border-style: none;
+  border-radius: 5px;
+  color: #fff;
+}
+#container .content .listsBox .listSection .resetButton {
+  display: flex;
+  padding-top: 1vh;
+}
+#container .content .listsBox .listSection .resetButton input {
+  flex: 1;
+  background-color: #DC3545;
+  border-style: none;
+  border-radius: 5px;
+  color: #fff;
+}
+#container .content .itemsBox {
+  width: 65%;
+}
+#container .content .itemsBox .itemsSection .addItem {
+  padding: 0.75vh 0;
+}
+#container .content .itemsBox .itemsSection .addItem form {
+  display: flex;
+}
+#container .content .itemsBox .itemsSection .addItem form input {
+  flex: 1;
+  border-style: none;
+}
+#container .content .itemsBox .itemsSection .addItem form button {
+  border-style: none;
+}
+#container .content .itemsBox .itemsSection .itemsList {
+  padding-top: 3vh;
+}
+#container .content .itemsBox .itemsSection .itemsList .task {
+  display: flex;
+  border-radius: 5pc;
+  background-color: #fff;
+  border: 1px solid #EDEDED;
+  margin: 1vh 0;
+}
+#container .content .itemsBox .itemsSection .itemsList .task input {
+  display: none;
+}
+#container .content .itemsBox .itemsSection .itemsList .task label {
+  padding-left: 1vw;
+  padding: 0.5vh 0;
+  padding-left: 1vw;
+  border-radius: 5pc;
+  flex: 1;
+}
+#container .content .itemsBox .itemsSection .deleteItems {
+  display: flex;
+  padding-top: 3vh;
+}
+#container .content .itemsBox .itemsSection .deleteItems input {
+  flex: 1;
+  background-color: #6C757D;
+  border-style: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+[type=checkbox]:checked + label {
+  color: #467A61;
+  background-color: #CBE3D8;
+}/*# sourceMappingURL=style.css.map */

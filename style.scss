@@ -1,0 +1,126 @@
+#container{
+    background-color: #EDEDED;
+    height: 100vh;
+    .content{
+        display: flex;
+        width: 90%;
+        margin: 0 5%;
+        padding-top: 5vh;
+        .listsBox {
+            width: 35%;
+            .listSection{
+                .addList {
+                    form {
+                        display: flex;
+                        input {
+                            flex: 1;
+                            border-style: none;
+                        }
+                        button {
+                            border-style: none;
+                        }
+                    }
+                }
+                .allTasks{
+                        padding-top: 3vh;
+                    ul {
+                        border-radius: 5px;
+                        list-style-position: inside;
+                        padding: 0;
+                        li{
+                            background-color: #fff;
+                            border-radius: 5pc;
+                            list-style: none;
+                            margin: 1vh 0;
+                            padding: .5vh 0;
+                            padding-left: 1.5vw;
+                        }
+                    }
+                    .active-list {
+                        background-color: #0D6EFD;
+                        color: #fff;
+                        border-radius: 5pc;
+                    }
+                }
+                .deleteList {
+                    display: flex;
+                    padding-top: 1vh;
+                    input{
+                        flex: 1;
+                        background-color: #6C757D;
+                        border-style: none;
+                        border-radius: 5px;
+                        color: #fff;
+                    }
+                }
+                .resetButton {
+                    display: flex;
+                    padding-top: 1vh;
+                    input{
+                        flex: 1;
+                        background-color: #DC3545;
+                        border-style: none;
+                        border-radius: 5px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .itemsBox{
+            width: 65%;
+            .itemsSection{
+                .addItem{
+                    padding: .75vh 0;
+                    form {
+                        display: flex;
+                        input{
+                            flex:1 ;
+                            border-style: none;
+                        }
+                        button {
+                            border-style: none;
+                        }
+                    }
+                }
+                .itemsList {
+                    padding-top: 3vh;
+                    .task {
+                        display: flex;
+                        border-radius: 5pc;
+                        background-color: #fff;
+                        border: 1px solid #EDEDED;
+                        margin: 1vh 0;
+                
+                        input {
+                            display: none;
+                        }
+                
+                        label {
+                            padding-left: 1vw;
+                            padding: .5vh 0;
+                            padding-left: 1vw;
+                            border-radius: 5pc;
+                            flex: 1;
+                        }
+                    }
+                }
+                .deleteItems{
+                    display: flex;
+                    padding-top: 3vh;
+                    input{
+                        flex: 1;
+                        background-color: #6C757D;
+                        border-style: none;
+                        border-radius: 5px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+[type='checkbox']:checked + label{
+    color: #467A61;
+    background-color: #CBE3D8;
+}
